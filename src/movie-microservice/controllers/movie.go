@@ -7,14 +7,14 @@ package controllers
 
 import (
 	"encoding/json"
+	"go_microservice/src/movie-microservice/common"
 	"net/http"
 	"net/url"
 
-	"../common"
-	"../daos"
-	"../models"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
+	"go_microservice/src/movie-microservice/daos"
+	"go_microservice/src/movie-microservice/models"
 	"gopkg.in/mgo.v2/bson"
 )
 

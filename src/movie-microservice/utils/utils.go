@@ -7,9 +7,9 @@ package utils
 
 import (
 	"errors"
+	"go_microservice/src/movie-microservice/common"
 	"time"
 
-	"../common"
 	jwt_lib "github.com/dgrijalva/jwt-go"
 	"gopkg.in/mgo.v2/bson"
 )

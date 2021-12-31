@@ -6,18 +6,16 @@
 package main
 
 import (
-	"io"
-	"os"
-
-	"./common"
-	"./controllers"
-	"./databases"
 	"github.com/gin-gonic/contrib/jwt"
 	"github.com/gin-gonic/gin"
-
-	_ "./docs"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
+	"go_microservice/src/user-microservice/common"
+	"go_microservice/src/user-microservice/controllers"
+	"go_microservice/src/user-microservice/databases"
+	_ "go_microservice/src/user-microservice/docs"
+	"io"
+	"os"
 )
 
 // Main manages main golang application

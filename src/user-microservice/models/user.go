@@ -8,7 +8,7 @@ package models
 import (
 	"errors"
 
-	"../common"
+	"go_microservice/src/user-microservice/common"
 	"gopkg.in/mgo.v2/bson"
 )
 

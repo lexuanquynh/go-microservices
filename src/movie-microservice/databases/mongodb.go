@@ -8,8 +8,8 @@ package databases
 import (
 	"time"
 
-	"../common"
 	log "github.com/sirupsen/logrus"
+	"go_microservice/src/movie-microservice/common"
 	mgo "gopkg.in/mgo.v2"
 )
 

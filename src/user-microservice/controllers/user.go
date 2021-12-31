@@ -6,20 +6,20 @@
 package controllers
 
 import (
+	utils2 "go_microservice/src/user-microservice/utils"
 	"net/http"
 
-	"../common"
-	"../daos"
-	"../models"
-	"../utils"
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
+	"go_microservice/src/user-microservice/common"
+	"go_microservice/src/user-microservice/daos"
+	"go_microservice/src/user-microservice/models"
 	"gopkg.in/mgo.v2/bson"
 )
 
 // User manages
 type User struct {
-	utils   utils.Utils
+	utils   utils2.Utils
 	userDAO daos.User
 }
 
